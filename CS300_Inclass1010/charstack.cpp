@@ -33,8 +33,7 @@ void CharStack::push(char ch) {
 
 char CharStack::pop() {
     if (isEmpty()) {
-        // Handle the error here, such as throwing an exception or returning a sentinel value.
-        // For now, we return '\0' as an example.
+
         return '\0';
     }
 
@@ -48,8 +47,7 @@ char CharStack::pop() {
 
 char CharStack::peek() {
     if (isEmpty()) {
-        // Handle the error here, such as throwing an exception or returning a sentinel value.
-        // For now, we return '\0' as an example.
+
         return '\0';
     }
     return top->data;
